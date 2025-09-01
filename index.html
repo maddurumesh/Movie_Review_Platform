@@ -9,15 +9,26 @@
             text-align: center; 
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .container { 
-            max-width: 800px; 
-            margin: 0 auto; 
+            max-width: 600px; 
             padding: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
         }
         h1 { 
             font-size: 3em; 
             margin-bottom: 20px;
+        }
+        a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -25,8 +36,9 @@
     <div class="container">
         <h1>🎬 Movie Review Platform</h1>
         <p>Spring Boot Backend + React Frontend</p>
-        <p>🚀 Deployment Successful!</p>
-        <p>📁 Repository: <a href="https://github.com/maddurumesh/Movie_Review_Platform" style="color: white;">GitHub Source Code</a></p>
+        <p>🚀 Successfully Deployed on GitHub Pages!</p>
+        <p>📁 <a href="https://github.com/maddurumesh/Movie_Review_Platform">View Source Code on GitHub</a></p>
+        <p>⭐ API Endpoints Ready: /api/movies, /api/users, /api/reviews</p>
     </div>
 </body>
 </html>
